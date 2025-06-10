@@ -1,0 +1,922 @@
+{
+    "proofs": [
+        {
+            "content": "Ingresso de show",
+            "tagline": "rasgado em pedaços",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Console de videogame",
+            "tagline": "nunca saiu da caixa",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Câmera de segurança",
+            "tagline": "já foi ligada alguma vez?",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Carta de amor",
+            "tagline": "ilegível por causa das lágrimas",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Meia tamanho 47",
+            "tagline": "cheira a queijo, literalmente",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Vaso quebrado",
+            "tagline": "mais cola que cerâmica",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Arma de água",
+            "tagline": "perfeita para vingança discreta",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Bebida energética",
+            "tagline": "insônia garantida",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Pen drive criptografado",
+            "tagline": "se está escondido, há um motivo",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Disfarce incógnito",
+            "tagline": "óculos + bigode = furtividade",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Bolas de petanca",
+            "tagline": "passa mais tempo polindo que jogando",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Histórico de busca",
+            "tagline": "apagado... ou quase",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Mapa do tesouro",
+            "tagline": "... ou planta de uma loja?",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Passaporte falso",
+            "tagline": "uma foto que diz \"nada a esconder\"... mas um passaporte que diz o contrário",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Pulseira da amizade",
+            "tagline": "feita com macarrão",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Estatueta",
+            "tagline": "viu coisas que não devia",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Cartão de visita",
+            "tagline": "o título diz tudo, mas nada na realidade",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Prontuário médico",
+            "tagline": "alerta de spoiler, não é bom",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Katana",
+            "tagline": "impressionante, mas inutilizável",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Placa de Abraços Grátis",
+            "tagline": "abraços grátis, constrangimento incluso",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Mala velha",
+            "tagline": "pode conter segredos... ou traças",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Foto embaçada",
+            "tagline": "memória de uma mão trêmula",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Cartão de crédito",
+            "tagline": "recusado até para um café",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Sapato perdido",
+            "tagline": "testemunha de uma fuga apressada",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Uma carta de stalker",
+            "tagline": "é amor ou ódio... ou ambos",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Colar de pérolas",
+            "tagline": "a joia que chama a atenção de todos",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Carteira de motorista",
+            "tagline": "Restam 2 pontos, direção imprudente",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Computador velho",
+            "tagline": "prepare sua tarde se quiser ligá-lo",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Anel herdado",
+            "tagline": "uma memória preciosa ou um erro antigo",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Avental manchado",
+            "tagline": "mais que um tecido coberto de vergonha",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Celular descartável 3312",
+            "tagline": "ferramenta perfeita para chamadas suspeitas",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Chave de ouro",
+            "tagline": "acessório de rico, sem a riqueza",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Máscara assustadora",
+            "tagline": "não só assustadora, mas nojenta",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Anel barato",
+            "tagline": "um diamante... de plástico",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Carro alugado",
+            "tagline": "cada barulho suspeito te faz suar",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Varredor de Espectros",
+            "tagline": "perfeito para apagar rastros... não os visíveis",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Contrato rompido",
+            "tagline": "pelo menos as férias foram estendidas",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Aranha de plástico",
+            "tagline": "perfeita para fobias de baixo custo",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Compra na dark web",
+            "tagline": "entregue por um cara de capuz",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Briga em restaurante",
+            "tagline": "tão tenso que as paredes querem sair",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Grito à meia-noite",
+            "tagline": "fantasma ou rato entusiasmado",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Queda de energia",
+            "tagline": "hora de achar velas... ou entrar em pânico",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Troca de e-mail suspeita",
+            "tagline": "parece um acordo, ou compra de chips",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "DMs vazadas",
+            "tagline": "Foi há anos, águas passadas... certo?",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Comentários na internet",
+            "tagline": "ultrajantes, sutileza é mainstream demais",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Encontro secreto",
+            "tagline": "Em parque público... ideal para negócios ou beijos",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Eternidade no banheiro",
+            "tagline": "sai, mas demora uma eternidade",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Cortes salariais",
+            "tagline": "sem dinheiro pra viver, mas ainda respira",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Epidemia violenta",
+            "tagline": "ansiedade aumenta, estoque de papel cai",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Malware global",
+            "tagline": "achamos que \"senha\" era seguro, mas...",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Fuga da prisão",
+            "tagline": "mais vazamentos que prisioneiros restantes",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Eclipse infinito",
+            "tagline": "apagão cósmico, esquecemos de pagar a conta",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Greves de transporte",
+            "tagline": "a greve é mais rápida que o transporte",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Controle remoto universal",
+            "tagline": "perdido em outro universo",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Chave enferrujada",
+            "tagline": "abre algo... ou nada",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Saco de dormir",
+            "tagline": "cheira a trilha e pés",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Medalha esportiva",
+            "tagline": "ganha por abandono geral",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Celular quebrado",
+            "tagline": "pegou um voo... só de ida",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Caderno",
+            "tagline": "caligrafia mais criptografada que arquivos",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Lata amassada",
+            "tagline": "último resquício de uma noite louca",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Caixa de correio lotada",
+            "tagline": "90% de lixo eletrônico",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "CD arranhado",
+            "tagline": "a mesma música em loop",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Chip SIM desconhecido",
+            "tagline": "número misterioso, golpe garantido",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Sininho",
+            "tagline": "toca sozinho à noite... assustador",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Cartão fidelidade",
+            "tagline": "nunca pontos suficientes",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Bilhete de metrô",
+            "tagline": "viagem só de ida para lugar nenhum",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Diário",
+            "tagline": "cadeado quebrado, segredos expostos",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Tela rachada",
+            "tagline": "frustração justificada",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Pelúcia gasta",
+            "tagline": "cheia de memórias... e ácaros",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Guarda-chuva quebrado",
+            "tagline": "proteção duvidosa contra chuva",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Chapéu de festa",
+            "tagline": "50% de chance de parecer ridículo",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Conta suspeita",
+            "tagline": "valor redondo demais para ser real",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Bilhete de loteria perdido",
+            "tagline": "como sempre, tente de novo",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Post-it rabiscado",
+            "tagline": "mensagem cifrada ou lista de compras?",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Convite",
+            "tagline": "evento cancelado ou esquecido?",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Cinzeiro cheio",
+            "tagline": "estressado ou apenas viciado?",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Caixa de pizza vazia",
+            "tagline": "conteúdo sumiu em circunstâncias suspeitas",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Óculos quebrados",
+            "tagline": "não queria ver a verdade",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Charuto pela metade",
+            "tagline": "tentou ser gângster, só acabou tossindo",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Crachá de acesso",
+            "tagline": "perdido bem quando precisava",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Garrafa d'água amassada",
+            "tagline": "sobreviveu a mais trilhas que você",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Relógio parado",
+            "tagline": "bateria morta ou mau presságio?",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Chiclete grudado",
+            "tagline": "prova de presença... ou tédio puro",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Caderninho preto",
+            "tagline": "lista de inimigos ou só uma agenda?",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Passagem de avião",
+            "tagline": "um destino que nunca viu seu passageiro",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Sabonete",
+            "tagline": "claramente, não usado o suficiente",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Tornozeleira eletrônica",
+            "tagline": "liberdade... com condições",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Fone de ouvido único",
+            "tagline": "o outro ainda funciona, em algum lugar",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Selo antigo",
+            "tagline": "mais caro que um rim no mercado negro",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Nota antiga",
+            "tagline": "rica em nostalgia, pobre em valor",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Apito danificado",
+            "tagline": "não apita mais",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Saquinho de chá usado",
+            "tagline": "deu tudo de si... por água quente com sabor",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Caderno de esboços",
+            "tagline": "retratos mais assustadores do que deveriam",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Garrafa de vinho vazia",
+            "tagline": "festa ou afogando as mágoas?",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Livro de páginas grudentas",
+            "tagline": "ou uma tragédia ou só geleia",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Cartão-chave de hotel",
+            "tagline": "check-out esquecido, depósito perdido",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Cabo cortado",
+            "tagline": "acidente ou sabotagem?",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Peça de quebra-cabeça solitária",
+            "tagline": "nunca encontrando seus amigos",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Fita adesiva gasta",
+            "tagline": "tentou consertar coisas demais",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Cápsula de bala usada",
+            "tagline": "disparada, mas em quê?",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Cera derretida",
+            "tagline": "carta selada... ou ritual antigo?",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Sacola surpresa misteriosa",
+            "tagline": "decepção garantida",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Pneu furado",
+            "tagline": "perfeito para uma viagem... de 5 metros",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Álcool em gel",
+            "tagline": "quando tem, não usa",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Caneta sem tampa",
+            "tagline": "condenada a secar",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Carregador danificado",
+            "tagline": "só funciona em um ângulo específico",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Pérola solitária",
+            "tagline": "não são as pérolas que fazem o colar, é o fio",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Tesoura enferrujada",
+            "tagline": "corta tudo, menos o que deveria",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Prego torto",
+            "tagline": "inútil, mas ainda aqui",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Cadarços novos",
+            "tagline": "para sapatos que não existem",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Telefone fixo empoeirado",
+            "tagline": "última chamada recebida em 2005",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Cartão postal amarelado",
+            "tagline": "enviado com amor, esquecido com o tempo",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Luvas de boxe",
+            "tagline": "nunca usadas, só para decoração",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Caixa de fósforos",
+            "tagline": "um em dois funciona, mas qual?",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Caneca lascada",
+            "tagline": "cada gole, um teste de coragem",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Chinelo furado",
+            "tagline": "meio chinelo, meio peneira",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Furadeira danificada",
+            "tagline": "perfeita para arruinar um conserto",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Cola bastão seca",
+            "tagline": "não cola nada... exceto seus dedos",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Revistinha rasgada",
+            "tagline": "a história termina abruptamente",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Lustre antigo",
+            "tagline": "ilumina tanto quanto um palito de fósforo",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Faca cega",
+            "tagline": "ameaça crível, eficiência questionável",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Lenço usado",
+            "tagline": "ainda aqui, mas não para uso",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Óculos 3D de papelão",
+            "tagline": "mais nostalgia que tecnologia",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Ketchup vencido",
+            "tagline": "ainda aqui, nunca usado",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Colher de pau queimada",
+            "tagline": "memória de um chef... ou de um incêndio",
+            "cardType": "1",
+            "proof_index": "0"
+        },
+        {
+            "content": "Esperando no médico",
+            "tagline": "Veio por um resfriado, sai três anos mais velho.",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Comendo algo suspeito",
+            "tagline": "O gosto? Estranho. As consequências? Inevitáveis.",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Um olhar no metrô",
+            "tagline": "Ou estão possuídos, ou atualizando o sistema.",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Bater o dedinho do pé",
+            "tagline": "O universo te lembrando quem manda.",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Pedido nunca entregue",
+            "tagline": "Você comprou um sonho, e ele ficou preso no trânsito.",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Uma mudança surpresa",
+            "tagline": "Você pediu pizza, não para levantar uma geladeira.",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Um e-mail perturbador",
+            "tagline": "Sim, isso definitivamente não é um anúncio de promoção.",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Um pacote aberto",
+            "tagline": "Claro, seu nome e endereço eram totalmente ilegíveis para seu vizinho.",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Elevador preso",
+            "tagline": "Momento perfeito para refletir sobre suas escolhas.",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Um pombo caindo",
+            "tagline": "Até os profissionais têm seus dias ruins.",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Um \"Visto\" na mensagem",
+            "tagline": "Isso é ghosting ou assassinato social?",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Uma explosão ao longe",
+            "tagline": "Acidente industrial ou início de filme de ação?",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Barulho suspeito sob a cama",
+            "tagline": "Monstro, barata ou imaginação fértil?",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Uma nuvem negra enorme",
+            "tagline": "Ou é tempestade ou início de filme de desastre.",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Um corvo grasnando",
+            "tagline": "Mau presságio ou só um pássaro irritado?",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Reunião de policiais",
+            "tagline": "Operação ou pausa para café muito intensa.",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Um trem parado no meio do trilho.",
+            "tagline": "O suspense é insuportável... e a espera também.",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Um barco à deriva",
+            "tagline": "Ou um mistério ou o dia ruim de alguém.",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "GPS levando a lugar nenhum",
+            "tagline": "Bug ou atalho para outra dimensão.",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Um buraco no jardim",
+            "tagline": "Jardineiro ou notícia de crime de amanhã.",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Conta bancária cheia de dinheiro",
+            "tagline": "A real pergunta é: \"Por quanto tempo?\"",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Sinais de trânsito com mensagens cifradas",
+            "tagline": "Retorno recomendado, sem motivo...",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Referendo incerto",
+            "tagline": "Você vota a favor ou contra... mas o quê?",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Falta de café",
+            "tagline": "Este é o começo do colapso social.",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Gesto proibido por lei",
+            "tagline": "Apontar? Perigoso. Piscar? Suspeito.",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Cidade parada nos semáforos vermelhos",
+            "tagline": "Coincidência ou revolta das máquinas?",
+            "cardType": "2",
+            "proof_index": "0"
+        },
+        {
+            "content": "Borracha super usada",
+            "tagline": "apaga o papel, não os erros",
+            "cardType": "0",
+            "proof_index": "0"
+        },
+        {
+            "content": "Hiperinflação",
+            "tagline": "preços sobem, salários presos nos anos 90",
+            "cardType": "0",
+            "proof_index": "0"
+        }
+    ]
+}

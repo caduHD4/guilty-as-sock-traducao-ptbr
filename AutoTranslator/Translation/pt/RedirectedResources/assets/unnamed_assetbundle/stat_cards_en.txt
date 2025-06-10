@@ -1,0 +1,697 @@
+[
+    {
+        "name": "stat_01",
+        "defaultCardContent": {
+            "title": "Cara de soco",
+            "categorie": "Atordoamentos recebidos"
+        },
+        "isDefault": true,
+        "higher": false,
+        "value": 0,
+        "roles": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "hitRanges": [],
+        "interestRanges": [],
+        "spriteFileName": "stat_01",
+        "is_count": true
+    },
+    {
+        "name": "stat_00",
+        "defaultCardContent": {
+            "title": "Viciado no microfone",
+            "categorie": "Tempo falando"
+        },
+        "isDefault": true,
+        "higher": false,
+        "value": 0,
+        "roles": [
+            1,
+            2
+        ],
+        "hitRanges": [],
+        "interestRanges": [
+            {
+                "min": 0,
+                "max": 300,
+                "statCardContent": {
+                    "title": "Sr. Silêncio",
+                    "categorie": "Tempo falando"
+                }
+            }
+        ],
+        "spriteFileName": "stat_00",
+        "is_count": false
+    },
+    {
+        "name": "stat_02",
+        "defaultCardContent": {
+            "title": "O Rei do Soco",
+            "categorie": "Atordoamentos dados"
+        },
+        "isDefault": true,
+        "higher": false,
+        "value": 0,
+        "roles": [
+            3,
+            6
+        ],
+        "hitRanges": [],
+        "interestRanges": [
+            {
+                "min": 0,
+                "max": 20,
+                "statCardContent": {
+                    "title": "Mãos de Almofada",
+                    "categorie": "Atordoamentos dados"
+                }
+            },
+            {
+                "min": 100,
+                "max": 9999,
+                "statCardContent": {
+                    "title": "O Dominador",
+                    "categorie": "Atordoamentos dados"
+                }
+            }
+        ],
+        "spriteFileName": "stat_02",
+        "is_count": true
+    },
+    {
+        "name": "stat_04",
+        "defaultCardContent": {
+            "title": "Mestre do Papel",
+            "categorie": "Projéteis arremessados"
+        },
+        "isDefault": true,
+        "higher": false,
+        "value": 0,
+        "roles": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "hitRanges": [],
+        "interestRanges": [
+            {
+                "min": 0,
+                "max": 0,
+                "statCardContent": {
+                    "title": "Organizado, até puxa-saco",
+                    "categorie": "Projéteis arremessados"
+                }
+            },
+            {
+                "min": 250,
+                "max": 999,
+                "statCardContent": {
+                    "title": "O Bagunceiro, Não o Faxineiro",
+                    "categorie": "Projéteis arremessados"
+                }
+            }
+        ],
+        "spriteFileName": "stat_04",
+        "is_count": true
+    },
+    {
+        "name": "stat_05",
+        "defaultCardContent": {
+            "title": "Empreendedor Solo",
+            "categorie": "Chamando a testemunha"
+        },
+        "isDefault": false,
+        "higher": false,
+        "value": 0,
+        "roles": [
+            1,
+            2
+        ],
+        "hitRanges": [],
+        "interestRanges": [
+            {
+                "min": 0,
+                "max": 0,
+                "statCardContent": {
+                    "title": "Empreendedor Solo",
+                    "categorie": "Chamando a testemunha"
+                }
+            },
+            {
+                "min": 20,
+                "max": 999,
+                "statCardContent": {
+                    "title": "O SOS Humano",
+                    "categorie": "Chamando a testemunha"
+                }
+            }
+        ],
+        "spriteFileName": "stat_05",
+        "is_count": true
+    },
+    {
+        "name": "stat_06",
+        "defaultCardContent": {
+            "title": "Descartável?",
+            "categorie": "Aparições no tribunal"
+        },
+        "isDefault": false,
+        "higher": false,
+        "value": 0,
+        "roles": [
+            4
+        ],
+        "hitRanges": [],
+        "interestRanges": [
+            {
+                "min": 0,
+                "max": 0,
+                "statCardContent": {
+                    "title": "Espectador, não testemunha",
+                    "categorie": "Aparições no tribunal"
+                }
+            },
+            {
+                "min": 20,
+                "max": 999,
+                "statCardContent": {
+                    "title": "Testemunha-chave",
+                    "categorie": "Aparições no tribunal"
+                }
+            }
+        ],
+        "spriteFileName": "stat_06",
+        "is_count": true
+    },
+    {
+        "name": "stat_08",
+        "defaultCardContent": {
+            "title": "Utilidade do Jurado",
+            "categorie": "Número de votos"
+        },
+        "isDefault": false,
+        "higher": false,
+        "value": 0,
+        "roles": [
+            7
+        ],
+        "hitRanges": [],
+        "interestRanges": [
+            {
+                "min": 0,
+                "max": 0,
+                "statCardContent": {
+                    "title": "Vagabundeando?",
+                    "categorie": "Número de votos"
+                }
+            },
+            {
+                "min": 1,
+                "max": 1,
+                "statCardContent": {
+                    "title": "Imparcial, até burro",
+                    "categorie": "Número de votos"
+                }
+            },
+            {
+                "min": 10,
+                "max": 24,
+                "statCardContent": {
+                    "title": "Um pouco influenciável",
+                    "categorie": "Número de votos"
+                }
+            },
+            {
+                "min": 25,
+                "max": 50,
+                "statCardContent": {
+                    "title": "Cata-vento",
+                    "categorie": "Número de votos"
+                }
+            },
+            {
+                "min": 51,
+                "max": 999,
+                "statCardContent": {
+                    "title": "Indecisão total",
+                    "categorie": "Número de votos"
+                }
+            }
+        ],
+        "spriteFileName": "stat_08",
+        "is_count": true
+    },
+    {
+        "name": "stat_09",
+        "defaultCardContent": {
+            "title": "Anti-imprensa",
+            "categorie": "Atordoamentos recebidos"
+        },
+        "isDefault": false,
+        "higher": false,
+        "value": 0,
+        "roles": [
+            5
+        ],
+        "hitRanges": [],
+        "interestRanges": [
+            {
+                "min": 50,
+                "max": 999,
+                "statCardContent": {
+                    "title": "Anti-imprensa",
+                    "categorie": "Atordoamentos recebidos"
+                }
+            }
+        ],
+        "spriteFileName": "stat_09",
+        "is_count": true
+    },
+    {
+        "name": "stat_10",
+        "defaultCardContent": {
+            "title": "O Valentão Valentado",
+            "categorie": "Atordoamentos recebidos"
+        },
+        "isDefault": false,
+        "higher": false,
+        "value": 0,
+        "roles": [
+            6
+        ],
+        "hitRanges": [],
+        "interestRanges": [
+            {
+                "min": 100,
+                "max": 999,
+                "statCardContent": {
+                    "title": "O Valentão Valentado",
+                    "categorie": "Atordoamentos recebidos"
+                }
+            }
+        ],
+        "spriteFileName": "stat_10",
+        "is_count": true
+    },
+    {
+        "name": "stat_11",
+        "defaultCardContent": {
+            "title": "A Bruxa",
+            "categorie": "Atordoamentos com varinha"
+        },
+        "isDefault": false,
+        "higher": false,
+        "value": 0,
+        "roles": [
+            6
+        ],
+        "hitRanges": [],
+        "interestRanges": [
+            {
+                "min": 0,
+                "max": 1,
+                "statCardContent": {
+                    "title": "Não muito caprichoso",
+                    "categorie": "Atordoamentos com varinha"
+                }
+            },
+            {
+                "min": 40,
+                "max": 9999,
+                "statCardContent": {
+                    "title": "Fada madrinha",
+                    "categorie": "Atordoamentos com varinha"
+                }
+            }
+        ],
+        "spriteFileName": "stat_11",
+        "is_count": true
+    },
+    {
+        "name": "stat_12",
+        "defaultCardContent": {
+            "title": "Uso do bastão",
+            "categorie": "Atordoamentos com bastão"
+        },
+        "isDefault": false,
+        "higher": false,
+        "value": 0,
+        "roles": [
+            6
+        ],
+        "hitRanges": [],
+        "interestRanges": [
+            {
+                "min": 0,
+                "max": 150,
+                "statCardContent": {
+                    "title": "Sr. Porrete",
+                    "categorie": "Atordoamentos com bastão"
+                }
+            },
+            {
+                "min": 151,
+                "max": 9999,
+                "statCardContent": {
+                    "title": "Benny do Bastão",
+                    "categorie": "Atordoamentos com bastão"
+                }
+            }
+        ],
+        "spriteFileName": "stat_12",
+        "is_count": true
+    },
+    {
+        "name": "stat_13",
+        "defaultCardContent": {
+            "title": "Zelo do oficial",
+            "categorie": "Atordoamentos dados"
+        },
+        "isDefault": false,
+        "higher": false,
+        "value": 0,
+        "roles": [
+            6
+        ],
+        "hitRanges": [],
+        "interestRanges": [
+            {
+                "min": 0,
+                "max": 0,
+                "statCardContent": {
+                    "title": "Pago para não fazer nada",
+                    "categorie": "Atordoamentos dados"
+                }
+            }
+        ],
+        "spriteFileName": "stat_13",
+        "is_count": true
+    },
+    {
+        "name": "stat_14",
+        "defaultCardContent": {
+            "title": "Uso das algemas",
+            "categorie": "Atordoamentos com algemas"
+        },
+        "isDefault": false,
+        "higher": false,
+        "value": 0,
+        "roles": [
+            6
+        ],
+        "hitRanges": [],
+        "interestRanges": [
+            {
+                "min": 10,
+                "max": 99,
+                "statCardContent": {
+                    "title": "Não se mova!",
+                    "categorie": "Atordoamentos com algemas"
+                }
+            },
+            {
+                "min": 100,
+                "max": 9999,
+                "statCardContent": {
+                    "title": "BDSM",
+                    "categorie": "Atordoamentos com algemas"
+                }
+            }
+        ],
+        "spriteFileName": "stat_14",
+        "is_count": true
+    },
+    {
+        "name": "stat_15",
+        "defaultCardContent": {
+            "title": "Zelo do advogado",
+            "categorie": "Evidências apresentadas"
+        },
+        "isDefault": false,
+        "higher": false,
+        "value": 0,
+        "roles": [
+            1,
+            2
+        ],
+        "hitRanges": [],
+        "interestRanges": [
+            {
+                "min": 0,
+                "max": 0,
+                "statCardContent": {
+                    "title": "Mestre do vazio",
+                    "categorie": "Evidências apresentadas"
+                }
+            },
+            {
+                "min": 1,
+                "max": 3,
+                "statCardContent": {
+                    "title": "Mínimo necessário",
+                    "categorie": "Evidências apresentadas"
+                }
+            },
+            {
+                "min": 3,
+                "max": 5,
+                "statCardContent": {
+                    "title": "Tudo está conectado!",
+                    "categorie": "Evidências apresentadas"
+                }
+            }
+        ],
+        "spriteFileName": "stat_15",
+        "is_count": true
+    },
+    {
+        "name": "stat_16",
+        "defaultCardContent": {
+            "title": "Uso de anotações",
+            "categorie": "Caracteres anotados"
+        },
+        "isDefault": false,
+        "higher": false,
+        "value": 0,
+        "roles": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "hitRanges": [],
+        "interestRanges": [
+            {
+                "min": 0,
+                "max": 0,
+                "statCardContent": {
+                    "title": "Tudo improvisado!",
+                    "categorie": "Caracteres anotados"
+                }
+            },
+            {
+                "min": 10,
+                "max": 49,
+                "statCardContent": {
+                    "title": "O bom estudante",
+                    "categorie": "Caracteres anotados"
+                }
+            },
+            {
+                "min": 50,
+                "max": 99,
+                "statCardContent": {
+                    "title": "Um pouco sério demais",
+                    "categorie": "Caracteres anotados"
+                }
+            },
+            {
+                "min": 100,
+                "max": 999,
+                "statCardContent": {
+                    "title": "O romancista",
+                    "categorie": "Caracteres anotados"
+                }
+            }
+        ],
+        "spriteFileName": "stat_16",
+        "is_count": true
+    },
+    {
+        "name": "stat_17",
+        "defaultCardContent": {
+            "title": "Expertise do caso",
+            "categorie": "Consultas à mesa de evidências"
+        },
+        "isDefault": false,
+        "higher": false,
+        "value": 0,
+        "roles": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "hitRanges": [],
+        "interestRanges": [
+            {
+                "min": 0,
+                "max": 9,
+                "statCardContent": {
+                    "title": "Que caso?",
+                    "categorie": "Consultas à mesa de evidências"
+                }
+            },
+            {
+                "min": 10,
+                "max": 49,
+                "statCardContent": {
+                    "title": "Consciencioso",
+                    "categorie": "Consultas à mesa de evidências"
+                }
+            },
+            {
+                "min": 50,
+                "max": 100,
+                "statCardContent": {
+                    "title": "Dependente do caso",
+                    "categorie": "Consultas à mesa de evidências"
+                }
+            },
+            {
+                "min": 100,
+                "max": 999,
+                "statCardContent": {
+                    "title": "O arquivista",
+                    "categorie": "Consultas à mesa de evidências"
+                }
+            }
+        ],
+        "spriteFileName": "stat_17",
+        "is_count": true
+    },
+    {
+        "name": "stat_07",
+        "defaultCardContent": {
+            "title": "Em greve?",
+            "categorie": "Informações publicadas"
+        },
+        "isDefault": false,
+        "higher": false,
+        "value": 0,
+        "roles": [
+            5
+        ],
+        "hitRanges": [],
+        "interestRanges": [
+            {
+                "min": 0,
+                "max": 0,
+                "statCardContent": {
+                    "title": "Em greve?",
+                    "categorie": "Informações publicadas"
+                }
+            }
+        ],
+        "spriteFileName": "stat_07",
+        "is_count": true
+    },
+    {
+        "name": "stat_07_01",
+        "defaultCardContent": {
+            "title": "Escândalo a todo custo",
+            "categorie": "Atraso na publicação"
+        },
+        "isDefault": false,
+        "higher": false,
+        "value": 0,
+        "roles": [
+            5
+        ],
+        "hitRanges": [],
+        "interestRanges": [
+            {
+                "min": 10,
+                "max": 300,
+                "statCardContent": {
+                    "title": "Escândalo a todo custo",
+                    "categorie": "Atraso na publicação"
+                }
+            }
+        ],
+        "spriteFileName": "stat_07_01",
+        "is_count": false
+    },
+    {
+        "name": "stat_18",
+        "defaultCardContent": {
+            "title": "A Prima Donna",
+            "categorie": "Emoticons usados"
+        },
+        "isDefault": true,
+        "higher": false,
+        "value": 0,
+        "roles": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "hitRanges": [],
+        "interestRanges": [
+            {
+                "min": 0,
+                "max": 1,
+                "statCardContent": {
+                    "title": "Estoico encarnado",
+                    "categorie": "Emoticons usados"
+                }
+            },
+            {
+                "min": 2,
+                "max": 49,
+                "statCardContent": {
+                    "title": "Entusiasta do drama",
+                    "categorie": "Emoticons usados"
+                }
+            },
+            {
+                "min": 50,
+                "max": 99,
+                "statCardContent": {
+                    "title": "Ator",
+                    "categorie": "Emoticons usados"
+                }
+            },
+            {
+                "min": 100,
+                "max": 999,
+                "statCardContent": {
+                    "title": "A Prima Donna",
+                    "categorie": "Emoticons usados"
+                }
+            }
+        ],
+        "spriteFileName": "stat_18",
+        "is_count": true
+    }
+]

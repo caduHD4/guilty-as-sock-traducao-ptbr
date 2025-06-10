@@ -1,0 +1,62 @@
+[
+    {
+        "witnessName": "estagiário estressado"
+    },
+    {
+        "witnessName": "policial"
+    },
+    {
+        "witnessName": "carteira"
+    },
+    {
+        "witnessName": "colega de trabalho"
+    },
+    {
+        "witnessName": "menininha"
+    },
+    {
+        "witnessName": "CHEFE"
+    },
+    {
+        "witnessName": "morador de rua"
+    },
+    {
+        "witnessName": "vovó"
+    },
+    {
+        "witnessName": "palhaço triste"
+    },
+    {
+        "witnessName": "Papai Noel"
+    },
+    {
+        "witnessName": "médico"
+    },
+    {
+        "witnessName": "especialista"
+    },
+    {
+        "witnessName": "cachorrinho"
+    },
+    {
+        "witnessName": "presidente"
+    },
+    {
+        "witnessName": "cônjuge"
+    },
+    {
+        "witnessName": "detetive amador"
+    },
+    {
+        "witnessName": "zelador intrometido"
+    },
+    {
+        "witnessName": "caminhoneiro"
+    },
+    {
+        "witnessName": "jardineiro"
+    },
+    {
+        "witnessName": "produtor de cinema"
+    }
+]

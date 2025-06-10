@@ -1,0 +1,63 @@
+﻿# Termos específicos do jogo
+Guilty as Sock=Culpado como Meia
+Lady Sock=Senhora Meia
+Mr. Sock=Sr. Meia
+
+# Correções de traduções automáticas problemáticas
+!NOTGUILTY=!INOCENTE
+!YES=!SIM
+!NO=!NÃO
+
+# Termos jurídicos específicos
+Your Honor=Vossa Excelência
+Ladies and gentlemen of the jury=Senhoras e senhores do júri
+Court is in session=O tribunal está em sessão
+Order in the court=Ordem no tribunal
+
+# Interface do jogo
+Push to talk=Pressione para falar
+Voice activation=Ativação por voz
+Custom evidences=Evidências personalizadas
+Custom Court=Tribunal Personalizado
+
+# Personagens/Testemunhas específicas
+stressed intern=estagiário estressado
+little girl=menininha
+Santa Claus=Papai Noel
+homeless man=morador de rua
+sad clown=palhaço triste
+nosy janitor=zelador intrometido
+amateur detective=detetive amador
+truck driver=caminhoneiro
+movie producer=produtor de cinema
+
+# Evidências específicas
+Concert ticket=Ingresso de show
+Gaming console=Console de jogos
+Security camera=Câmera de segurança
+Love letter=Carta de amor
+Water gun=Pistola de água
+Energy drink=Energético
+Encrypted USB key=Pen drive criptografado
+Incognito costume=Fantasia incógnito
+Treasure map=Mapa do tesouro
+Fake passport=Passaporte falso
+Friendship bracelet=Pulseira da amizade
+Business card=Cartão de visita
+Medical file=Prontuário médico
+Free Hugs sign=Placa "Abraços Grátis"
+Old suitcase=Mala antiga
+Blurry photo=Foto borrada
+Credit card=Cartão de crédito
+Lost shoe=Sapato perdido
+Pearl necklace=Colar de pérolas
+Driver's license=Carteira de motorista
+Old computer=Computador antigo
+Inherited ring=Anel herdado
+Stained apron=Avental manchado
+Gold key=Chave dourada
+Scary mask=Máscara assustadora
+Cheap ring=Anel barato
+Rental car=Carro alugado
+Broken contract=Contrato quebrado
+Plastic spider=Aranha de plástico

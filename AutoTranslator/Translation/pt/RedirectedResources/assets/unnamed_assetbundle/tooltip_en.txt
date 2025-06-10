@@ -1,0 +1,119 @@
+{
+    "tooltips": [
+        {
+            "Name": "BELL",
+            "Content": "Toque o sino para <color=#59D75E>pular sua vez</color>.",
+            "IsOverride": false
+        },
+        {
+            "Name": "NOTEPAD",
+            "Content": "Anote <color=#59D75E>informações</color> ou bobagens no bloco de notas.",
+            "IsOverride": false
+        },
+        {
+            "Name": "EVIDENCES_FOLDER",
+            "Content": "Verifique suas evidências, apresente-as, e <color=#59D75E>construa uma narrativa</color> no seu turno.",
+            "IsOverride": false
+        },
+        {
+            "Name": "BALLS",
+            "Content": "Jogue essas bolas para <color=#59D75E>distrair</color> os outros.",
+            "IsOverride": false
+        },
+        {
+            "Name": "BOARD_CARD",
+            "Content": "<color=#59D75E>Aceite</color> ou <color=#59D75E>rejeite</color> cartas com um clique.",
+            "IsOverride": false
+        },
+        {
+            "Name": "HAMMER",
+            "Content": "<color=#59D75E>Role</color> para escolher um recurso.",
+            "IsOverride": false
+        },
+        {
+            "Name": "HAMMER_MUTE",
+            "Content": "<color=#59D75E>Atordoe um advogado</color> por alguns segundos.",
+            "IsOverride": false
+        },
+        {
+            "Name": "HAMMER_SPEECH",
+            "Content": "Permita que um advogado <color=#59D75E>apresente</color> evidências.",
+            "IsOverride": false
+        },
+        {
+            "Name": "HAMMER_DECIDE",
+            "Content": "<color=#59D75E>Entregue seu veredicto</color> culpado ou inocente.",
+            "IsOverride": false
+        },
+        {
+            "Name": "SILENCE",
+            "Content": "Atordoado! <br><color=#59D75E>Você não pode ser ouvido</color> por alguns segundos.",
+            "IsOverride": true
+        },
+        {
+            "Name": "SPEECH",
+            "Content": "Apresente suas evidências para <color=#59D75E>construir uma narrativa</color>!",
+            "IsOverride": true
+        },
+        {
+            "Name": "WITNESS_PICTURE",
+            "Content": "Chame sua testemunha <color=#59D75E>ao banco</color> para questioná-la!",
+            "IsOverride": false
+        },
+        {
+            "Name": "HAMMER_WITNESS",
+            "Content": "<color=#59D75E>Traga</color> a testemunha chamada ao banco ou <color=#59D75E>mande-a de volta</color> ao seu assento!",
+            "IsOverride": false
+        },
+        {
+            "Name": "TWITCH_BALANCE",
+            "Content": "Crie uma enquete Twitch de 60s e <color=#59D75E>deixe seu chat votar</color> com <color=#B87CFF>!SIM</color> ou <color=#B87CFF>!NÃO</color>.",
+            "IsOverride": false
+        },
+        {
+            "Name": "STUN_PLAYERS",
+            "Content": "<color=#59D75E>Atordoe</color> o jogador que você mirar!",
+            "IsOverride": false
+        },
+        {
+            "Name": "WITNESS_CALLED",
+            "Content": "Testemunhe <color=#59D75E>a favor</color> do lado que te chamou!",
+            "IsOverride": true
+        },
+        {
+            "Name": "WITNESS_REVOKED",
+            "Content": "Você não precisa mais <color=#59D75E>testemunhar</color> para o lado que te chamou.",
+            "IsOverride": true
+        },
+        {
+            "Name": "BAILIFF_HANDCUFFS",
+            "Content": "Impeça alguém de <color=#59D75E>se comportar mal</color> limitando seus movimentos!",
+            "IsOverride": false
+        },
+        {
+            "Name": "BAILIFF_BATON",
+            "Content": "<color=#59D75E>Atordoe</color> alguém por alguns segundos!",
+            "IsOverride": false
+        },
+        {
+            "Name": "BAILIFF_WAND",
+            "Content": "<color=#59D75E>Transforme</color> alguém e impeça que façam qualquer coisa, incluindo falar!",
+            "IsOverride": false
+        },
+        {
+            "Name": "JOURNALIST_TYPEWRITER",
+            "Content": "Escreva um <color=#59D75E>flash de notícias</color> que conta como evidência e muda o rumo do julgamento!",
+            "IsOverride": false
+        },
+        {
+            "Name": "JUROR_BOARD",
+            "Content": "Desenhe em sua <color=#59D75E>lousa</color> e mostre aos outros!",
+            "IsOverride": false
+        },
+        {
+            "Name": "JUROR_VOTE",
+            "Content": "Dê sua <color=#59D75E>opinião</color> para influenciar o juiz!",
+            "IsOverride": false
+        }
+    ]
+}
