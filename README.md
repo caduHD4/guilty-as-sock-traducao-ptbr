@@ -14,7 +14,7 @@ Este projeto visa tornar o jogo mais acessível a falantes de português, por me
 | Seção                     | Progresso |
 |---------------------------|-----------|
 | Interface                 | ✅ Concluído |
-| Diálogos principais       | ✅ Concluído |
+| Cartas                    | ✅ Concluído |
 | Testes in-game            | 🟡 Em andamento |
 
 ## 🔧 Como aplicar 👇
