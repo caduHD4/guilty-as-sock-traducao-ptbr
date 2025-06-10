@@ -62,6 +62,7 @@ Baixe o seguinte arquivo:
 
 - Execute o atalho `StandaloneWindows64 (Patch and Run)` para rodar o jogo pela primeira vez com o patch.
 - Isso criará a estrutura de pastas do `AutoTranslator` automaticamente.
+- Feche o jogo.
 
 ---
 
