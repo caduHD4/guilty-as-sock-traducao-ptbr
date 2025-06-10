@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="ewqAR_96AqNOXm9HioUONjNIfWw5fmOFlyQOzq96CJ4" />
+      <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://caduHD4.github.io/guilty-as-sock-traducao-ptbr/">
+    <meta property="og:title" content="Tradução PT-BR | Guilty as Sock">
+    <meta property="og:description" content="Confira a tradução não oficial para o jogo Guilty as Sock! em português brasileiro. Download gratuito da tradução completa.">
+    <meta property="og:image" content="https://caduHD4.github.io/guilty-as-sock-traducao-ptbr/assets/culpado_como_uma_meia.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Guilty as Sock - Tradução PT-BR">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://caduHD4.github.io/guilty-as-sock-traducao-ptbr/">
+    <meta property="twitter:title" content="Tradução PT-BR | Guilty as Sock">
+    <meta property="twitter:description" content="Confira a tradução não oficial para o jogo Guilty as Sock! em português brasileiro. Download gratuito da tradução completa.">
+    <meta property="twitter:image" content="https://caduHD4.github.io/guilty-as-sock-traducao-ptbr/assets/culpado_como_uma_meia.png">
+    
+    <!-- Meta description for SEO -->
+    <meta name="description" content="Baixe a tradução não oficial de Guilty as Sock! para português brasileiro. Tradução completa da interface e cartas do jogo.">
+    <meta name="keywords" content="Guilty as Sock, tradução, português, PT-BR, download, jogo, cards">
+    <meta name="author" content="caduHD4">
+    
     <title>Tradução PT-BR | Guilty as Sock</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧦</text></svg>">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -164,7 +186,7 @@
             margin: 2rem 0;
         }
 
-        .download-btn, .repo-btn {
+        .download-btn, .repo-btn, .steam-btn {
             display: inline-flex;
             align-items: center;
             gap: 0.75rem;
@@ -191,7 +213,11 @@
             background: linear-gradient(135deg, #24292f, #57606a);
         }
 
-        .download-btn::before, .repo-btn::before {
+        .steam-btn {
+            background: linear-gradient(135deg, #1b2838, #2a475e);
+        }
+
+        .download-btn::before, .repo-btn::before, .steam-btn::before {
             content: '';
             position: absolute;
             top: 0;
@@ -202,11 +228,11 @@
             transition: left 0.5s ease;
         }
 
-        .download-btn:hover::before, .repo-btn:hover::before {
+        .download-btn:hover::before, .repo-btn:hover::before, .steam-btn:hover::before {
             left: 100%;
         }
 
-        .download-btn:hover, .repo-btn:hover {
+        .download-btn:hover, .repo-btn:hover, .steam-btn:hover {
             transform: translateY(-2px);
             box-shadow: 
                 0 20px 25px -5px var(--shadow-light),
@@ -217,9 +243,13 @@
             background: linear-gradient(135deg, #57606a, #6e7681);
         }
 
-        .github-icon {
-            width: 20px;
-            height: 20px;
+        .steam-btn:hover {
+            background: linear-gradient(135deg, #2a475e, #1e3a8a);
+        }
+
+        .github-icon, .steam-icon {
+            width: 24px;
+            height: 24px;
             fill: currentColor;
         }
 
@@ -640,7 +670,7 @@
                 align-items: center;
             }
 
-            .download-btn, .repo-btn {
+            .download-btn, .repo-btn, .steam-btn {
                 width: 100%;
                 max-width: 300px;
                 justify-content: center;
@@ -685,9 +715,17 @@
             
             <div class="beta-warning">
                 ⚠️ <strong>VERSÃO BETA</strong> - Esta tradução ainda está em desenvolvimento e pode conter alguns erros ou textos não traduzidos.
-            </div>
-
-            <div class="buttons-container">
+            </div>            <div class="buttons-container">
+                <a href="https://store.steampowered.com/app/3400930/Guilty_as_Sock/" target="_blank" class="steam-btn">
+                    <svg class="steam-icon" viewBox="0 0 48 48">
+                        <linearGradient id="wI0QYw54EXg5_LlgK1HXYa_zNqjI8XKkCv0_gr1" x1="24" x2="24" y1="44" y2="4" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0176d0"></stop><stop offset="1" stop-color="#16538c"></stop></linearGradient>
+                        <path fill="url(#wI0QYw54EXg5_LlgK1HXYa_zNqjI8XKkCv0_gr1)" d="M44,24c0,11.04-8.96,20-20,20c-8.39,0-15.57-5.16-18.53-12.48c-0.09-0.2-0.16-0.4-0.24-0.6	c-0.07-0.19-0.14-0.39-0.2-0.59C4.36,28.34,4,26.21,4,24c0-0.17,0-0.35,0.02-0.52c-0.01-0.17,0-0.35,0.01-0.52	C4.57,12.4,13.3,4,24,4C35.04,4,44,12.95,44,24z"></path>
+                        <circle cx="28.5" cy="18.5" r="3.5" fill="#fff"></circle>
+                        <path d="M28.5,14.5c-2.21,0-4,1.79-4,4c0,2.21,1.79,4,4,4s4-1.79,4-4C32.5,16.29,30.71,14.5,28.5,14.5z M28.5,22c-1.93,0-3.5-1.57-3.5-3.5s1.57-3.5,3.5-3.5s3.5,1.57,3.5,3.5S30.43,22,28.5,22z" opacity=".07"></path>
+                        <path fill="#fff" d="M28.5,10c-4.69,0-8.5,3.81-8.5,8.5c0,0.18,0.02,0.35,0.03,0.52L17,24c-2.07,0-3.92,0.9-5.2,2.32 L4,24c0,2.21,0.36,4.34,1.03,6.33l5.04,1.61C10.53,35.36,13.45,38,17,38c3.87,0,7-3.13,7-7c0-0.37-0.04-0.73-0.09-1.08l5.06-2.94 C33.44,26.73,37,23.03,37,18.5C37,13.81,33.19,10,28.5,10z M17,36c-2.18,0-4.02-1.41-4.7-3.35l3.75,1.19l0.01-0.01 c0,0.01,0.01,0.01,0.02,0.01c0.14,0.04,0.27,0.08,0.41,0.11C16.66,33.98,16.83,34,17,34c1.66,0,3-1.34,3-3 c0-1.3-0.85-2.41-2.02-2.82c-0.01-0.01-0.03-0.03-0.03-0.03l-3.91-1.16C14.87,26.38,15.89,26,17,26c2.76,0,5,2.24,5,5 S19.76,36,17,36z M28.5,24c-3.04,0-5.5-2.46-5.5-5.5c0-3.04,2.46-5.5,5.5-5.5s5.5,2.46,5.5,5.5C34,21.54,31.54,24,28.5,24z"></path>
+                    </svg>
+                    Comprar o jogo
+                </a>
                 <a href="https://github.com/user-attachments/files/20663831/AutoTranslator.zip" target="_blank" class="download-btn">
                     📥 Baixar Tradução
                 </a>
