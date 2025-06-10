@@ -69,7 +69,7 @@ Baixe o seguinte arquivo:
 ### 5️⃣ Aplicar os Arquivos de Tradução
 
 - Faça o download dos arquivos deste repositório de tradução.
-- Copie os arquivos para a **pasta raiz do jogo**, sobrescrevendo quando necessário.
+- Copie a pasta AutoTranslator para a **pasta raiz do jogo**, sobrescrevendo quando necessário.
 
 ---
 
