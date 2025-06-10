@@ -1,13 +1,911 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="ewqAR_96AqNOXm9HioUONjNIfWw5fmOFlyQOzq96CJ4" />
-    <title>Tradução PT-BR Guilty as Sock</title>
+    <title>Tradução PT-BR | Guilty as Sock</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #6366f1;
+            --primary-dark: #4f46e5;
+            --secondary-color: #10b981;
+            --accent-color: #f59e0b;
+            --bg-primary: #0f172a;
+            --bg-secondary: #1e293b;
+            --bg-card: #334155;
+            --text-primary: #f8fafc;
+            --text-secondary: #cbd5e1;
+            --text-muted: #94a3b8;
+            --border-color: #475569;
+            --shadow-light: rgba(99, 102, 241, 0.1);
+            --shadow-medium: rgba(0, 0, 0, 0.3);
+            --shadow-heavy: rgba(0, 0, 0, 0.5);
+            --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --gradient-card: linear-gradient(145deg, #334155 0%, #1e293b 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--gradient-primary);
+            opacity: 0.05;
+            z-index: -1;
+        }
+
+        header {
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1.5rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .header-logo {
+            height: 50px;
+            width: auto;
+            object-fit: contain;
+            filter: drop-shadow(0 2px 8px var(--shadow-light));
+        }
+
+        header h1 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin: 0;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            flex: 1;
+            text-align: center;
+            letter-spacing: -0.025em;
+        }
+
+        main {
+            padding: 4rem 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: calc(100vh - 140px);
+        }
+
+        .container {
+            background: var(--gradient-card);
+            padding: 3rem;
+            border-radius: 24px;
+            border: 1px solid var(--border-color);
+            text-align: center;
+            box-shadow: 
+                0 20px 25px -5px var(--shadow-medium),
+                0 10px 10px -5px var(--shadow-light);
+            max-width: 900px;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--primary-color), transparent);
+        }
+
+        h1 {
+            font-size: 2.75rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--text-primary);
+            letter-spacing: -0.025em;
+            line-height: 1.2;
+        }
+
+        h2 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin: 3rem 0 2rem;
+            color: var(--secondary-color);
+            letter-spacing: -0.025em;
+        }
+
+        p {
+            font-size: 1.125rem;
+            margin-bottom: 2rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .beta-warning {
+            background: linear-gradient(135deg, #ef4444, #f97316);
+            padding: 1.5rem;
+            border-radius: 16px;
+            margin: 2rem 0;
+            color: white;
+            font-weight: 500;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 25px rgba(239, 68, 68, 0.2);
+        }
+
+        .buttons-container {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 2rem 0;
+        }
+
+        .download-btn, .repo-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 1rem 2.5rem;
+            color: white;
+            text-decoration: none;
+            border-radius: 16px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            font-weight: 600;
+            font-size: 1.125rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 
+                0 10px 15px -3px var(--shadow-light),
+                0 4px 6px -2px var(--shadow-medium);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .download-btn {
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+        }
+
+        .repo-btn {
+            background: linear-gradient(135deg, #24292f, #57606a);
+        }
+
+        .download-btn::before, .repo-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .download-btn:hover::before, .repo-btn:hover::before {
+            left: 100%;
+        }
+
+        .download-btn:hover, .repo-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 
+                0 20px 25px -5px var(--shadow-light),
+                0 10px 10px -5px var(--shadow-medium);
+        }
+
+        .repo-btn:hover {
+            background: linear-gradient(135deg, #57606a, #6e7681);
+        }
+
+        .github-icon {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+        }
+
+        .instructions {
+            background: var(--gradient-card);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 2.5rem;
+            margin: 3rem 0;
+            text-align: left;
+            box-shadow: 0 10px 25px var(--shadow-medium);
+        }
+
+        .instructions h3 {
+            color: var(--secondary-color);
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 1rem;
+        }
+
+        .step {
+            background: rgba(71, 85, 105, 0.3);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            position: relative;
+        }
+
+        .step-number {
+            background: var(--primary-color);
+            color: white;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            position: absolute;
+            top: -16px;
+            left: 1.5rem;
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+        }
+
+        .step h4 {
+            color: var(--text-primary);
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin: 0 0 1rem 2rem;
+        }
+
+        .step p, .step ul {
+            color: var(--text-secondary);
+            margin: 0.75rem 0;
+            line-height: 1.6;
+        }
+
+        .step ul {
+            padding-left: 1.5rem;
+        }
+
+        .step li {
+            margin: 0.5rem 0;
+        }
+
+        .code-block {
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 0.75rem 0;
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            font-size: 0.9rem;
+            color: var(--accent-color);
+            overflow-x: auto;
+        }
+
+        .code-block a {
+            color: var(--accent-color);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .code-block a:hover {
+            color: #fff;
+            text-decoration: underline;
+            text-shadow: 0 0 8px var(--accent-color);
+        }
+
+        .code-block a:hover::after {
+            content: ' 🔗';
+            font-size: 0.8rem;
+            opacity: 0.8;
+        }
+
+        .scroll-to-top {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            margin-top: 1rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.2);
+        }
+
+        .scroll-to-top:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(99, 102, 241, 0.3);
+            background: linear-gradient(135deg, var(--primary-dark), var(--primary-color));
+        }
+
+        @keyframes highlightDownload {
+            0% {
+                box-shadow: 
+                    0 10px 15px -3px var(--shadow-light),
+                    0 4px 6px -2px var(--shadow-medium);
+                transform: scale(1);
+            }
+            25% {
+                box-shadow: 
+                    0 20px 40px rgba(99, 102, 241, 0.4),
+                    0 15px 30px rgba(99, 102, 241, 0.3),
+                    0 0 0 4px rgba(99, 102, 241, 0.2);
+                transform: scale(1.05);
+            }
+            50% {
+                box-shadow: 
+                    0 25px 50px rgba(99, 102, 241, 0.5),
+                    0 20px 40px rgba(99, 102, 241, 0.4),
+                    0 0 0 8px rgba(99, 102, 241, 0.1);
+                transform: scale(1.08);
+            }
+            75% {
+                box-shadow: 
+                    0 20px 40px rgba(99, 102, 241, 0.4),
+                    0 15px 30px rgba(99, 102, 241, 0.3),
+                    0 0 0 4px rgba(99, 102, 241, 0.2);
+                transform: scale(1.05);
+            }
+            100% {
+                box-shadow: 
+                    0 10px 15px -3px var(--shadow-light),
+                    0 4px 6px -2px var(--shadow-medium);
+                transform: scale(1);
+            }
+        }
+
+        .download-btn.highlight {
+            animation: highlightDownload 2s ease-in-out;
+        }
+
+        .status-table {
+            background: rgba(71, 85, 105, 0.2);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .status-table h4 {
+            color: var(--secondary-color);
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .status-grid {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 0.75rem;
+            align-items: center;
+        }
+
+        .status-item {
+            display: contents;
+        }
+
+        .status-label {
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .status-badge {
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .status-complete {
+            background: rgba(16, 185, 129, 0.2);
+            color: var(--secondary-color);
+            border: 1px solid var(--secondary-color);
+        }
+
+        .status-progress {
+            background: rgba(245, 158, 11, 0.2);
+            color: var(--accent-color);
+            border: 1px solid var(--accent-color);
+        }
+
+        .warning-box {
+            background: linear-gradient(135deg, #dc2626, #ea580c);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            color: white;
+            font-weight: 500;
+        }
+
+        .tip-box {
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid var(--secondary-color);
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            color: var(--text-secondary);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .container {
+            animation: fadeIn 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .gallery {
+            position: relative;
+            max-width: 100%;
+            margin: 2rem 0;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px var(--shadow-medium);
+            border: 1px solid var(--border-color);
+        }
+
+        .gallery-container {
+            display: flex;
+            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 450px;
+            object-fit: cover;
+            flex-shrink: 0;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            filter: brightness(0.9);
+        }
+
+        .gallery img:hover {
+            filter: brightness(1.1);
+        }
+
+        .gallery-controls {
+            position: absolute;
+            bottom: 24px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 12px;
+            padding: 12px 20px;
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(20px);
+            border-radius: 50px;
+            border: 1px solid var(--border-color);
+        }
+
+        .gallery-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--text-muted);
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 2px solid transparent;
+        }
+
+        .gallery-dot.active {
+            background: var(--primary-color);
+            transform: scale(1.2);
+            box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.2);
+        }
+
+        .gallery-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(20px);
+            color: white;
+            border: 1px solid var(--border-color);
+            font-size: 20px;
+            width: 48px;
+            height: 48px;
+            cursor: pointer;
+            border-radius: 50%;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .gallery-nav:hover {
+            background: var(--primary-color);
+            transform: translateY(-50%) scale(1.1);
+            box-shadow: 0 8px 25px rgba(99, 102, 241, 0.3);
+        }
+
+        .gallery-nav.prev {
+            left: 24px;
+        }
+
+        .gallery-nav.next {
+            right: 24px;
+        }
+
+        footer {
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(20px);
+            border-top: 1px solid var(--border-color);
+            padding: 2rem 0;
+            text-align: center;
+            margin-top: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .footer-logo {
+            height: 36px;
+            width: auto;
+            object-fit: contain;
+            opacity: 0.7;
+            filter: grayscale(0.3);
+        }
+
+        footer p {
+            margin: 0;
+            color: var(--text-muted);
+        }
+
+        footer p:first-of-type {
+            font-weight: 500;
+            color: var(--text-secondary);
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 1rem;
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            header h1 {
+                font-size: 1.5rem;
+                text-align: center;
+            }
+
+            main {
+                padding: 2rem 1rem;
+            }
+
+            .container {
+                padding: 2rem 1.5rem;
+                border-radius: 16px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .gallery img {
+                height: 300px;
+            }
+
+            .gallery-nav {
+                width: 40px;
+                height: 40px;
+                font-size: 16px;
+            }
+
+            .gallery-nav.prev {
+                left: 16px;
+            }
+
+            .gallery-nav.next {
+                right: 16px;
+            }
+
+            .buttons-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .download-btn, .repo-btn {
+                width: 100%;
+                max-width: 300px;
+                justify-content: center;
+            }
+
+            .instructions {
+                padding: 1.5rem;
+                text-align: left;
+            }
+
+            .step {
+                padding: 1.25rem;
+            }
+
+            .step h4 {
+                margin-left: 1rem;
+                font-size: 1.125rem;
+            }
+
+            .status-grid {
+                grid-template-columns: 1fr;
+                gap: 0.5rem;
+            }
+
+            .status-badge {
+                justify-self: start;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Tradução PT-BR para Guilty as Sock</h1>
-    <p>Confira a tradução não oficial para o jogo Guilty as Sock em português brasileiro!</p>
-    <a href="https://github.com/caduHD4/guilty-as-sock-traducao-ptbr">Acesse o repositório</a>
+    <header>
+        <img src="https://cdn.playtester.io/logos/guilty-as-sock.webp" alt="Guilty as Sock Logo" class="header-logo">
+        <h1>🧦 Guilty as Sock! - Tradução PT-BR</h1>
+        <div style="width: 50px;"></div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Tradução PT-BR para <em>Guilty as Sock!</em></h1>
+            <p>Confira a tradução não oficial para o jogo <strong>Guilty as Sock!</strong> em português brasileiro!</p>
+            
+            <div class="beta-warning">
+                ⚠️ <strong>VERSÃO BETA</strong> - Esta tradução ainda está em desenvolvimento e pode conter alguns erros ou textos não traduzidos.
+            </div>
+
+            <div class="buttons-container">
+                <a href="https://github.com/user-attachments/files/20663831/AutoTranslator.zip" target="_blank" class="download-btn">
+                    📥 Baixar Tradução
+                </a>
+                <a href="https://github.com/caduHD4/guilty-as-sock-traducao-ptbr" target="_blank" class="repo-btn">
+                    <svg class="github-icon" viewBox="0 0 24 24">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    Repositório
+                </a>
+            </div>
+
+            <div class="instructions">
+                <h3>🔧 Como Aplicar a Tradução</h3>
+                
+                <div class="status-table">
+                    <h4>🚧 Status da Tradução</h4>
+                    <div class="status-grid">
+                        <div class="status-item">
+                            <span class="status-label">Interface</span>
+                            <span class="status-badge status-complete">✅ Concluído</span>
+                        </div>
+                        <div class="status-item">
+                            <span class="status-label">Cartas</span>
+                            <span class="status-badge status-complete">✅ Concluído</span>
+                        </div>
+                        <div class="status-item">
+                            <span class="status-label">Testes in-game</span>
+                            <span class="status-badge status-progress">🟡 Em andamento</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="warning-box">
+                    <strong>📌 Requisito:</strong> Ferramenta XUnity.AutoTranslator (ReiPatcher)
+                </div>
+
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h4>Baixar o AutoTranslator</h4>
+                    <p>Acesse a página oficial do XUnity.AutoTranslator e baixe:</p>
+                    <div class="code-block">
+                        <a href="https://github.com/bbepis/XUnity.AutoTranslator/releases/download/v5.4.5/XUnity.AutoTranslator-ReiPatcher-5.4.5.zip" target="_blank">
+                            XUnity.AutoTranslator-ReiPatcher-5.4.5.zip
+                        </a>
+                    </div>
+                    <p>Ou a versão mais recente com suporte ao <strong>ReiPatcher</strong>.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h4>Extrair e Instalar</h4>
+                    <ul>
+                        <li>Extraia o conteúdo do arquivo baixado</li>
+                        <li>Copie <code>SetupReiPatcherAndAutoTranslator.exe</code> para a pasta raiz do jogo</li>
+                        <li>A pasta deve conter o arquivo <code>StandaloneWindows64.exe</code></li>
+                    </ul>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h4>Executar o Setup</h4>
+                    <ul>
+                        <li>Execute <code>SetupReiPatcherAndAutoTranslator.exe</code></li>
+                        <li>Isso criará o atalho: <code>StandaloneWindows64 (Patch and Run).lnk</code></li>
+                    </ul>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h4>Primeira Execução</h4>
+                    <ul>
+                        <li>Execute o atalho <strong>"Patch and Run"</strong></li>
+                        <li>Isso criará a estrutura de pastas do AutoTranslator</li>
+                        <li>Feche o jogo após carregar</li>
+                    </ul>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h4>Aplicar a Tradução</h4>
+                    <ul>
+                        <li>Baixe os arquivos de tradução usando o botão no topo da página</li>
+                        <li>Extraia e copie a pasta <code>AutoTranslator</code> para a raiz do jogo</li>
+                        <li>Sobrescreva quando solicitado</li>
+                    </ul>
+                    <a href="#top" class="scroll-to-top">
+                        ⬆️ Ir para o botão de download
+                    </a>
+                </div>
+
+                <div class="tip-box">
+                    <strong>✅ Verificação:</strong> O jogo deve carregar em português. Pressione <strong>ALT + R</strong> no jogo para recarregar traduções se necessário.
+                </div>
+
+                <div class="warning-box">
+                    <strong>⚙️ Configuração Avançada:</strong> Por padrão, a tradução automática está desabilitada. Para ativar, edite <code>/AutoTranslator/Config.ini</code> e adicione <code>Endpoint=GoogleTranslateV2</code>
+                </div>
+            </div>
+
+            <h2>Screenshots do Jogo</h2>
+            <div class="gallery">
+                <div class="gallery-container">
+                    <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3400930/ba0b75c56a547f5e09bc0aa5146f3385831ac631/ss_ba0b75c56a547f5e09bc0aa5146f3385831ac631.1920x1080.jpg?t=1749219111" alt="Guilty as Sock - Screenshot 1" loading="lazy">
+                    <img src="https://images.squarespace-cdn.com/content/v1/6462c91365e9020d15767195/6cbdfe0c-82d3-45f4-8892-ef5bf307a94b/guilty+as+sock+3.png" alt="Guilty as Sock - Screenshot 2" loading="lazy">
+                    <img src="https://cdn.playtester.io/thumbnails/3400930-thumbnail.webp" alt="Guilty as Sock - Screenshot 3" loading="lazy">
+                    <img src="https://images.squarespace-cdn.com/content/v1/6694c7917c956c53964034d9/0e80a949-4df7-4363-a65d-ed55f5556164/Screenshot+2025-06-06+204901.png" alt="Guilty as Sock - Screenshot 4" loading="lazy">
+                </div>
+                <button class="gallery-nav prev">‹</button>
+                <button class="gallery-nav next">›</button>
+                <div class="gallery-controls">
+                    <span class="gallery-dot active"></span>
+                    <span class="gallery-dot"></span>
+                    <span class="gallery-dot"></span>
+                    <span class="gallery-dot"></span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <img src="https://cdn2.steamgriddb.com/logo/37f204db819fcaa9c72ca89c4eeaf538.png" alt="Guilty as Sock Logo" class="footer-logo">
+        <p>&copy; 2025 Tradução não oficial - Feito por caduHD4</p>
+        <p style="font-size: 0.875rem;">
+            Todos os direitos reservados ao jogo <strong>Guilty as Sock!</strong> e seus respectivos criadores.
+        </p>
+    </footer>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.gallery img');
+        const dots = document.querySelectorAll('.gallery-dot');
+        const container = document.querySelector('.gallery-container');
+        const totalSlides = slides.length;
+
+        // Função para atualizar a galeria
+        function updateGallery() {
+            const translateX = -currentSlide * 100;
+            container.style.transform = `translateX(${translateX}%)`;
+            
+            // Atualizar dots
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentSlide);
+            });
+        }
+
+        // Função para próximo slide
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % totalSlides;
+            updateGallery();
+        }
+
+        // Função para slide anterior
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+            updateGallery();
+        }
+
+        // Adicionar event listeners
+        document.querySelector('.gallery-nav.next').addEventListener('click', nextSlide);
+        document.querySelector('.gallery-nav.prev').addEventListener('click', prevSlide);
+
+        // Clique nos dots
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentSlide = index;
+                updateGallery();
+            });
+        });
+
+        // Auto-play da galeria (a cada 4 segundos)
+        let autoPlayInterval = setInterval(nextSlide, 4000);
+
+        // Pausar auto-play quando hover na galeria
+        const gallery = document.querySelector('.gallery');
+        gallery.addEventListener('mouseenter', () => {
+            clearInterval(autoPlayInterval);
+        });
+
+        gallery.addEventListener('mouseleave', () => {
+            autoPlayInterval = setInterval(nextSlide, 4000);
+        });
+
+        // Adiciona interatividade às imagens (clique para abrir)
+        const images = document.querySelectorAll('.gallery img');
+        images.forEach(img => {
+            img.addEventListener('click', () => {
+                window.open(img.src, '_blank');
+            });
+        });        // Log ao clicar no link de download
+        const link = document.querySelector('a[href*="github"]');
+        link.addEventListener('click', () => {
+            console.log('Redirecionando para o repositório...');
+        });
+
+        // Smooth scroll para links âncora
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                if (targetId === 'top') {
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Destacar o botão de download após o scroll
+                    setTimeout(() => {
+                        const downloadBtn = document.querySelector('.download-btn');
+                        downloadBtn.classList.add('highlight');
+                        
+                        // Remover a classe após a animação
+                        setTimeout(() => {
+                            downloadBtn.classList.remove('highlight');
+                        }, 2000);
+                    }, 500); // Delay para aguardar o scroll terminar
+                }
+            });
+        });
+    </script>
 </body>
 </html>
